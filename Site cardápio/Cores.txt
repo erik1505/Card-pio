@@ -1,0 +1,8 @@
+Laranja:#FF7F27
+#FF8F60
+#FFA592
+#FFBEC1
+
+
+BACKGROUND
+background-image: linear-gradient(to right top, #ff7f27, #ff7d2e, #ff7b35, #ff7a3a, #ff7840);

@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    background-image: linear-gradient(to right top, #ff7f27, #ff7d2e, #ff7b35, #ff7a3a, #ff7840);
+    font-size: 1.2rem;
+}
+
+#header{
+    background-color: #966446 ;
+    height:60px;
+    display: flex;
+    
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.lista{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    left:100px;
+}
+
+.lista:hover{
+    background-color: #FF2F2F;
+}
+
+#main{
+    background-color: #ffe8d1;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#lista-cardapio{
+    display: flex;
+    gap: 15px;
+    margin: 5px;
+}
+
+.pratos{
+    background-color: #ffa592;
+    height: 400px;
+    width: 300px;   
+}
+
+.foto_prato{
+    position: relative;
+    left: 25px;
+    bottom: -20px;
+    width: 250px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.descricao{
+    position: relative;
+    bottom: -40px;
+    left: 30px;
+    background-color: gray;
+    width: 80%;
+}
